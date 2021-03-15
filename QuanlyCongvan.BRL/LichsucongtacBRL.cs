@@ -13,5 +13,12 @@ namespace QuanlyCongvan.BRL
         {
             return (new LichsucongtacDAL().LichsucongtacGetByPK(lichsucongtacID));
         }
+
+        public List<LichsucongtacEntity> gltsLichsuCongtacCanbo(long iLichsuCongtacCanbo)
+        {
+            List<LichsucongtacEntity> gltsLichsuCongtacCanbo = new List<LichsucongtacEntity>();
+            gltsLichsuCongtacCanbo = gltsLichsucongtac(0).FindAll(lichsu => lichsu.FK_iCanboID == iLichsuCongtacCanbo);
+            return gltsLichsuCongtacCanbo;
+        }
     }
 }

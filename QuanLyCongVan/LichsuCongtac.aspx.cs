@@ -94,7 +94,8 @@ namespace QuanLyCongVan
 
         private void xemLichsuCongtac()
         {
-            List<LichsucongtacEntity> glstLichsuCongtac = (new LichsucongtacBRL()).gltsLichsucongtac(0);
+            long iCanboID = Convert.ToInt64(Request.QueryString["iCanbo"]);
+            List<LichsucongtacEntity> glstLichsuCongtac = (new LichsucongtacBRL()).gltsLichsuCongtacCanbo(iCanboID);
             hienDanhsachPhantrang(glstLichsuCongtac);
         }
 

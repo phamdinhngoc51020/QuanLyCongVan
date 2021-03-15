@@ -105,8 +105,8 @@
                         <tr>
                             <th>STT</th>
                             <th>Tên bộ phận</th>
-                            <th>Chức chức vụ</th>
-                            <th>Mã cán bộ</th>
+                            <th>Chức vụ</th>
+                            <th>Tên cán bộ</th>
                             <th>Thời gian bắt đầu</th>
                             <th>Thời gian kết thúc</th>
                             <th colspan="2">Xử lý</th>

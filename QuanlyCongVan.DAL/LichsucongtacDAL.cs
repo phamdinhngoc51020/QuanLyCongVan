@@ -30,11 +30,7 @@ namespace QuanlyCongVan.DAL
                         lichsucongtac.FK_iChucvuID = Convert.ToInt64(dar["FK_iChucvuID"]);
                         lichsucongtac.FK_iBophanID = Convert.ToInt64(dar["FK_iBophanID"]);
                         lichsucongtac.FK_iCanboID = Convert.ToInt64(dar["FK_iCanboID"]);
-                        if (dar["tThoigianketthuc"].ToString() != "")
-                            lichsucongtac.TThoigianketthuc = Convert.ToDateTime(dar["tThoigianketthuc"]);
-                        else
-                            lichsucongtac.TThoigianketthuc
-                                =DateTime.Parse("01/10/2000");
+                        lichsucongtac.TThoigianketthuc = Convert.ToDateTime(dar["tThoigianketthuc"]);
                         glstLichsucongtac.Add(lichsucongtac);
                     }
                 }

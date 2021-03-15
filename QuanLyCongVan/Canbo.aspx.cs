@@ -68,7 +68,7 @@ namespace QuanLyCongVan
             }
             if (e.CommandName == "xemLichsuCongtac")
             {
-                Response.Redirect("LichsuCongtac.aspx?Canbo=" + e.CommandArgument); ;
+                Response.Redirect("LichsuCongtac.aspx?iCanbo=" + e.CommandArgument); ;
             }
         }
 
