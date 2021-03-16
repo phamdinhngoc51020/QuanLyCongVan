@@ -13,7 +13,7 @@
             overflow-x:scroll;
             overflow-y:scroll;
         }
-             .font {
+             .font {   
             font-size: 16px;
         }
              .btn {
